@@ -33,9 +33,9 @@ Welcome to the Midnight Moon Theme Collection for Visual Studio Code! This colle
 1. Press `Ctrl+K` followed by `Ctrl+T` to open the theme selector.
 2. Choose your preferred theme from the list:
    - Midnight Moon
-   - Midnight Moon ALT
-   - Midnight Color Moon
-   - Midnight Dark Moon
+   - Midnight Moon Pro
+   - Midnight Moon Dark
+   - Midnight Moon Eclipse
 
 ## Contributing
 
