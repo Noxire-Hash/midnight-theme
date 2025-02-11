@@ -2,14 +2,14 @@
   "name": "midnight-themepack",
   "displayName": "Midnight Moon Theme Collection",
   "description": "A collection of visually appealing, eye-friendly themes with cool blue-ish colors for Visual Studio Code.",
-  "version": "0.0.13",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.91.0"
   },
   "publisher": "noxire",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Stalker-hash/midnight"
+    "url": "https://github.com/Noxire-Hash/midnight-theme"
   },
   "license": "MIT",
   "icon": "./img/midnightLogo.png",
@@ -24,9 +24,9 @@
         "path": "./themes/midnight-moon.json"
       },
       {
-        "label": "Midnight Moon Alternative",
+        "label": "Midnight Moon Pro",
         "uiTheme": "vs-dark",
-        "path": "./themes/midnight-moon-alt.json"
+        "path": "./themes/midnight-moon-pro.json"
       },
       {
         "label": "Midnight Moon Dark",
@@ -34,9 +34,9 @@
         "path": "./themes/midnight-dark-moon.json"
       },
       {
-        "label": "Midnight Moon Eclipse",
+        "label": "Midnight Moon Ukiyo",
         "uiTheme": "vs-dark",
-        "path": "./themes/midnight-moon-eclipse.json"
+        "path": "./themes/midnight-moon-ukiyo.json"
       }
     ]
   }

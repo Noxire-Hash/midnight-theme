@@ -9,4 +9,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Initial release
 
 ### Changed
-- After a long time no see, I am finally back to the project renewed the naming and worked on some small color changes furthermore there is now a new addition to family and removed bloated themes
+
+- A bit tweaking in midnight moon
+- New theme called Midnight Moon Ukiyo
+- New theme called Midnight Pro

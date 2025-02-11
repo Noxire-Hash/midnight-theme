@@ -4,21 +4,26 @@ Welcome to the Midnight Moon Theme Collection for Visual Studio Code! This colle
 
 ## Themes Included
 
-1. **Midnight Moon** (default): A balanced theme with a dark background and soothing colors for syntax highlighting.
-3. **Midnight Moon Eclipse**: A more pastel version of the default theme, with softer syntax highlighting.
-4. **Midnight Dark Moon**: The darkest version in the collection, providing a deep, immersive coding experience.
+1. **Midnight Moon Classic** (default): A balanced theme with a dark background and soothing colors for syntax highlighting.
+2. **Midnight Moon Ukiyo**: A more pastel version of the default theme, with softer syntax highlighting.
+3. **Midnight Dark Moon**: The darkest version in the collection, providing a deep, immersive coding experience.
+4. **Midnight Moon Pro**: A pro version with more contrast and darker tones, it will continue to improve.
 
-### Midnight Moon
+### Midnight Moon Classic
 
-![Midnight Moon](https://i.imgur.com/W29tKXQ.png)
+![Midnight Moon Classic](https://i.imgur.com/FDQnaCC.png)
 
 ### Midnight Moon Dark
 
-![Midnight MoON Dark](https://i.imgur.com/uMOD5zM.png)
+![Midnight Moon Dark](https://i.imgur.com/pl6lqsX.png)
 
-### Midnight Moon Eclipse
+### Midnight Moon Ukiyo
 
-![Midnight Moon Eclipse](https://i.imgur.com/2XvANjI.png)
+![Midnight Moon Ukiyo](https://i.imgur.com/Zj8n5Fe.png)
+
+### Midnight Moon Pro
+
+![Midnight Moon Pro](https://i.imgur.com/3FIVCQs.png)
 
 ## Installation
 
