@@ -10,6 +10,4 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ### Changed
 
-- A bit tweaking in midnight moon
-- New theme called Midnight Moon Ukiyo
-- New theme called Midnight Pro
+- Bug fixes for ukiyo

@@ -306,7 +306,7 @@
     "editorInlayHint.typeForeground": "#92BAFF",
     "editorInlayHint.parameterBackground": "#28283450",
     "editorInlayHint.parameterForeground": "#FFB88C",
-    "diffEditor.insertedLineBackground": "#98BB6C15",
+    "diffEditor.insertedLineBackground": "#7BFFA915",
     "diffEditor.removedLineBackground": "#FF638015",
     "diffEditor.diagonalFill": "#28283450",
     "searchEditor.findMatchBackground": "#5E6D9C80",
@@ -332,7 +332,71 @@
     "editorStickyScroll.background": "#151724",
     "editorStickyScrollHover.background": "#1A1D2E",
     "interactive.activeCodeBorder": "#5A84F8",
-    "interactive.inactiveCodeBorder": "#28283490"
+    "interactive.inactiveCodeBorder": "#28283490",
+    "editor.rangeHighlightBackground": "#415174A0",
+    "editor.symbolHighlightBackground": "#415174A0",
+    "editorOverviewRuler.findMatchForeground": "#5E6D9C",
+    "editorOverviewRuler.modifiedForeground": "#FFDC7B80",
+    "editorOverviewRuler.addedForeground": "#7BFFA980",
+    "editorOverviewRuler.deletedForeground": "#FF638080",
+    "editorOverviewRuler.errorForeground": "#FF638080",
+    "editorOverviewRuler.warningForeground": "#FFDC7B80",
+    "editorOverviewRuler.infoForeground": "#92BAFF80",
+    "editor.selectionHighlightBorder": "#415174A0",
+    "notificationsErrorIcon.foreground": "#FF6380",
+    "notificationsWarningIcon.foreground": "#FFDC7B",
+    "notificationsInfoIcon.foreground": "#92BAFF",
+    "peekViewEditorGutter.background": "#1A1D2E",
+    "peekViewResult.lineForeground": "#E8EFFF",
+    "peekViewResult.selectionBackground": "#3A3F5C",
+    "peekViewResult.selectionForeground": "#E8EFFF",
+    "macro": {
+      "foreground": "#FF8AD0",
+      "bold": true
+    },
+    "parameter.declaration": {
+      "foreground": "#8BE9FD",
+      "italic": true
+    },
+    "variable.defaultLibrary": {
+      "foreground": "#FF8AD0",
+      "italic": true
+    },
+    "property.readonly": {
+      "foreground": "#FFB88C",
+      "bold": true
+    },
+    "variable.static": {
+      "foreground": "#FFB88C",
+      "bold": true
+    },
+    "function.declaration": {
+      "foreground": "#92BAFF",
+      "bold": true
+    },
+    "method.declaration": {
+      "foreground": "#92BAFF",
+      "bold": true
+    },
+    "class.declaration": {
+      "foreground": "#FFE070",
+      "bold": true
+    },
+    "interface.declaration": {
+      "foreground": "#FFB88C",
+      "bold": true
+    },
+    "typeParameter.declaration": {
+      "foreground": "#FFE070",
+      "italic": true
+    },
+    "namespace.declaration": {
+      "foreground": "#FFE070",
+      "bold": true
+    },
+    "editor.selectionForeground": "#FFFFFF",
+    "editor.findMatchBorder": "#5E6D9C",
+    "editor.findMatchHighlightBorder": "#5E6D9C50"
   },
   "tokenColors": [
     {
@@ -564,7 +628,8 @@
         "entity.other.attribute-name.class.scss"
       ],
       "settings": {
-        "foreground": "#7BFFA9"
+        "foreground": "#7BFFA9",
+        "fontStyle": "italic"
       }
     },
     {
@@ -595,6 +660,60 @@
         "foreground": "#92BAFF",
         "fontStyle": "italic bold"
       }
+    },
+    {
+      "scope": ["meta.object.member", "variable.object.property"],
+      "settings": {
+        "foreground": "#FFA59E"
+      }
+    },
+    {
+      "scope": ["meta.decorator", "punctuation.decorator"],
+      "settings": {
+        "foreground": "#D4B3FF",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["text.html.derivative", "meta.tag.structure.any.html"],
+      "settings": {
+        "foreground": "#FF7AC6"
+      }
+    },
+    {
+      "scope": ["meta.type.annotation.ts", "meta.type.annotation.tsx"],
+      "settings": {
+        "foreground": "#FFE070"
+      }
+    },
+    {
+      "scope": ["support.type.primitive", "support.type.builtin"],
+      "settings": {
+        "foreground": "#FFE070",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "meta.jsx.children",
+      "settings": {
+        "foreground": "#E8EFFF"
+      }
+    },
+    {
+      "scope": [
+        "support.constant.property-value.css",
+        "support.constant.property-value.scss"
+      ],
+      "settings": {
+        "foreground": "#7BFFA9"
+      }
+    },
+    {
+      "scope": "markup.heading.markdown",
+      "settings": {
+        "foreground": "#FFE070",
+        "fontStyle": "bold"
+      }
     }
   ],
   "semanticHighlighting": true,
@@ -617,7 +736,10 @@
     "namespace": "#92BAFF",
     "typeParameter": "#FFE08C",
     "member": "#FFA59E",
-    "macro": "#FF8AD0",
+    "macro": {
+      "foreground": "#FF8AD0",
+      "bold": true
+    },
     "enumMember": "#FFB88C",
     "event": "#FF8AD0",
     "modifier": "#FF8AD0",
@@ -633,6 +755,74 @@
     "attribute": {
       "foreground": "#D4B3FF",
       "italic": true
-    }
+    },
+    "parameter.declaration": {
+      "foreground": "#FFA59E",
+      "bold": true
+    },
+    "variable.defaultLibrary": {
+      "foreground": "#FF8AD0",
+      "italic": true
+    },
+    "property.readonly": {
+      "foreground": "#FFB88C",
+      "bold": true
+    },
+    "variable.static": {
+      "foreground": "#FFB88C",
+      "bold": true
+    },
+    "function.declaration": {
+      "foreground": "#92BAFF",
+      "bold": true
+    },
+    "method.declaration": {
+      "foreground": "#92BAFF",
+      "bold": true
+    },
+    "class.declaration": {
+      "foreground": "#FFE070",
+      "bold": true
+    },
+    "interface.declaration": {
+      "foreground": "#FFB88C",
+      "bold": true
+    },
+    "typeParameter.declaration": {
+      "foreground": "#FFE070",
+      "italic": true
+    },
+    "namespace.declaration": {
+      "foreground": "#FFE070",
+      "bold": true
+    },
+    "property.declaration": {
+      "foreground": "#FFA59E",
+      "bold": true
+    },
+    "variable.declaration": {
+      "foreground": "#A2CAFF",
+      "italic": true
+    },
+    "parameter.declaration.readonly": {
+      "foreground": "#FFB88C",
+      "bold": true,
+      "italic": true
+    },
+    "class.readonly": {
+      "foreground": "#FFE070",
+      "bold": true
+    },
+    "interface.readonly": {
+      "foreground": "#FFB88C",
+      "bold": true
+    },
+    "enum.declaration": {
+      "foreground": "#FFB88C",
+      "bold": true
+    },
+    "jsx.text": "#E8EFFF",
+    "jsx.tag.text": "#E8EFFF",
+    "jsx.component.text": "#E8EFFF"
   }
 }

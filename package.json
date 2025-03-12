@@ -2,7 +2,7 @@
   "name": "midnight-themepack",
   "displayName": "Midnight Moon Theme Collection",
   "description": "A collection of visually appealing, eye-friendly themes with cool blue-ish colors for Visual Studio Code.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "engines": {
     "vscode": "^1.91.0"
   },
@@ -17,6 +17,18 @@
     "Themes"
   ],
   "contributes": {
+    "debuggers": [
+      {
+        "type": "node-debug",
+        "runtime": "node",
+        "runtimeArgs": [
+          "--inspect"
+        ],
+        "args": [
+          "--inspect"
+        ]
+      }
+    ],
     "themes": [
       {
         "label": "Midnight Moon Classic",
